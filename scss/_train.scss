@@ -1,0 +1,71 @@
+.train{
+    .train_nav h1{
+        width: 687px;
+        height: 49px;
+        flex-shrink: 0;
+        margin-top: 122px;
+    }
+    .train_nav p{
+        width: 667px;
+        height: 41px;
+        flex-shrink: 0;
+        color: var(--additional-font, #6B6B6C);
+        font-family: PT Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        margin-top: -13px;
+    }
+    .card_nav{
+        display: flex;
+        gap: 30px;
+    }
+    .card{
+        margin-top: 56px;
+        width: 393px;
+        height: 439px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+    }
+    .card h6{
+        width: 327px;
+        height: 21px;
+        flex-shrink: 0;
+        margin-left: 32px;
+        margin-top: 24px;
+        color:#363738;
+        font-family: Exo 2;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%; /* 27px */
+    }
+    .card p{
+        width: 291px;
+        height: 41px;
+        color: var(--additional-font, #6B6B6C);
+        font-family: PT Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        flex-shrink: 0;
+        margin-left: 32px;
+        margin-top: -27px;
+    }
+    .card h5{
+        color: var(--main-font, #363738);
+        font-family: Exo 2;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 32px;
+        line-height: 135%; /* 21.6px */
+        border-bottom: 3px solid #FFCE50;;
+        width: 86px;
+        
+    }
+}

@@ -1,0 +1,64 @@
+.second{
+    max-width: 1400px;
+    height: 453px;
+    flex-shrink: 0;
+    background-image: url(/images/Rectangle\ 7\ \(1\).png);
+    margin: 0 auto;
+    .seconds{
+        width: 769px;
+        height: 453.5px;
+        flex-shrink: 0;
+        clip-path: polygon(0 0, 48% 0, 100% 100%, 0% 100%);
+        background-color: #0B7572;
+        }
+        .second_nav h2{
+            width: 362px;
+            height: 109px;
+            flex-shrink: 0;
+            color: #fff;
+            font-family: Exo 2;
+            font-size: 48px;
+            font-style: normal;
+            margin-left: 90px;
+            padding-top: 178px;
+            font-weight: 600;
+            line-height: 125%; /* 60px */
+        }
+        .picture_cap{
+            display: flex;
+            gap: 176px;
+        }
+        .picture_lider{
+            display: flex;
+        }
+        .picture_svg img{
+            margin-top: 72px;
+            margin-left: 66px;
+        }
+        .picture-svg_covit h6{
+            width: 327px;
+            height: 21px;
+            flex-shrink: 0;
+            color: var(--main-font, #363738);
+            font-family: Exo 2;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 135%; /* 27px */
+            margin-left: 40px;
+            margin-top: 70px;
+        }
+        .picture-svg_covit p{
+            margin-top: -40px;
+            width: 291px;
+            height: 41px;
+            flex-shrink: 0;
+            color: var(--additional-font, #6B6B6C);
+            font-family: PT Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 24px */
+            margin-left: 40px;
+        }
+}
